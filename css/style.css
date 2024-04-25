@@ -196,9 +196,12 @@ font-weight: 700;
 
 /* --------------------hearo------------------------ */
 
+
+
 .hero {
     padding-top: 96px;
     padding-bottom: 96px;
+    
 }
 
 .hero-title {
@@ -256,8 +259,9 @@ font-weight: 700;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-left: 16px;
-    padding-right: 16px;
+    
+    
+    
 }
 
 /* -------------------------------------------- */
@@ -282,10 +286,10 @@ font-weight: 700;
 }
 
 
-.team-list {
+/* .team-list {
     display: flex;
     gap: 24px;
-}
+} */
 
 .team-item {
     background-color: #fff;
@@ -988,7 +992,7 @@ input:focus-within {
 
         .hero-item-title{
          text-align: start;
-         padding: 0 16px;
+        
         }
 
         .hero-list {
@@ -1101,6 +1105,11 @@ input:focus-within {
             margin-bottom: 8px;
             flex-direction: column;
         }
+
+            .team-list {
+             display: flex;
+             gap: 24px;
+                }
 }
 
 
