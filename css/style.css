@@ -1022,15 +1022,13 @@ input:focus-within {
         flex-shrink: 0;
 }
 
-.modal-check:checked+.check-text span {
+.modal-check:checked+.check-text .modal-icon-wrap {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
 
-.modal-check:focus+.check-text span {
-    background-color: #404bbf;
-}
+
 
 .policy-link {
     line-height: 1.33333;
@@ -1245,6 +1243,13 @@ input:focus-within {
         
 
     }
+
+        @media screen and (min-resolution: 2dppx),
+        (min-resolution: 192dpi) {
+            .main-solutions {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-2x.jpg);
+            }
+        }
 
     .main-solutions-title {
         font-weight: 700;
